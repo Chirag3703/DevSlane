@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="Assignment_17.js"></script>
+</head>
+
+<body >
+    <div class="p-10 font-semibold">
+        <input type="number" placeholder="Enter distance" class="text-center border-2 border-black rounded" id="Distance">
+        <select class="text-center border-2 border-black rounded" id="fromUnit">
+            <option>Killometer</option>
+            <option>Meter</option>
+            <option>Centimeter</option>
+            <option>Millimeter</option>
+        </select>
+        <label for="toUnit">to</label>
+        <select class="text-center border-2 border-black rounded"
+                id="toUnit">
+            <option>Killometer</option>
+            <option>Meter</option>
+            <option>Centimeter</option>
+            <option>Millimeter</option>
+        </select>
+        <button class="text-center text-white px-5 py-1 bg-blue-700 rounded-lg" 
+                onclick="Converter()">
+            Convert
+        </button>
+    <p id="result">
+
+    </p>
+    </div>
+</body>
+
+</html>
